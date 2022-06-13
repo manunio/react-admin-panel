@@ -5,6 +5,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Widget, {WidgetType} from "../../components/widgets/Widget";
 import Featured from "../../components/featured/Featured";
 import Chart from "../../components/chart/Chart";
+import ListTable from "../../components/table/Table";
 
 function Home(props: any) {
     return (
@@ -21,6 +22,12 @@ function Home(props: any) {
                 <div className="charts">
                     <Featured/>
                     <Chart/>
+                </div>
+                <div className="listContainer">
+                    <div className="listTitle">
+                        Latest Transactions
+                    </div>
+                    <ListTable/>
                 </div>
             </div>
         </div>
