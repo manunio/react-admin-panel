@@ -21,7 +21,7 @@ function Home(props: any) {
                 </div>
                 <div className="charts">
                     <Featured/>
-                    <Chart/>
+                    <Chart aspect={2.9} title="Last 6 Months (Revenue)"/>
                 </div>
                 <div className="listContainer">
                     <div className="listTitle">
